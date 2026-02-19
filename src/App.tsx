@@ -1,5 +1,3 @@
-import { motion } from 'framer-motion';
-import { Heart, Zap, Brain, BarChart3, Shield, Smartphone } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
