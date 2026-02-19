@@ -59,7 +59,6 @@ export default function Footer() {
                   key={item}
                   whileHover={{ x: 5, color: '#0F766E' }}
                   className="cursor-pointer transition-colors hover:text-teal-400"
-                  className="cursor-pointer transition-colors"
                 >
                   {item}
                 </motion.li>
