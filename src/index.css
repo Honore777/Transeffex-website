@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-900;
+}
+
+/* ============ BRIGHT, HIGH-CONTRAST GRADIENTS ============ */
+
+/* Primary Gradients - Bright Cyan & Blue */
+.gradient-primary {
+  background: linear-gradient(135deg, #0284C7 0%, #0891B2 100%);
+}
+
+.gradient-primary-alt {
+  background: linear-gradient(135deg, #0891B2 0%, #06B6D4 100%);
+}
+
+.gradient-secondary {
+  background: linear-gradient(135deg, #0284C7 0%, #1F2937 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #06B6D4 0%, #0284C7 100%);
+}
+
+.gradient-bright-blue {
+  background: linear-gradient(135deg, #0284C7 0%, #0369A1 100%);
+}
+
+.gradient-bright-cyan {
+  background: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%);
+}
+
+.gradient-navy-bright {
+  background: linear-gradient(135deg, #0F172A 0%, #0284C7 100%);
+}
+
+.gradient-dark-bright {
+  background: linear-gradient(135deg, #1F2937 0%, #06B6D4 100%);
+}
+
+.gradient-vibrant {
+  background: linear-gradient(135deg, #0891B2 0%, #06B6D4 100%);
+}
+
+/* ============ HOVER & INTERACTIVE EFFECTS ============ */
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-xl hover:scale-105 hover:shadow-cyan-500/50;
+}
+
+.neon-glow {
+  @apply shadow-lg shadow-cyan-400/60;
+}
+
+.glow-bright {
+  @apply shadow-lg shadow-cyan-400/60;
+}
+
+.glow-blue {
+  @apply shadow-lg shadow-blue-500/60;
+}
+
+.glow-cyan {
+  @apply shadow-lg shadow-cyan-400/60;
+}
+
+/* ============ BACKDROP & BLUR EFFECTS ============ */
+
+.glass-effect {
+  @apply backdrop-blur-lg bg-white/95 border border-cyan-200;
+}
+
+.glass-dark {
+  @apply backdrop-blur-lg bg-slate-900/70 border border-cyan-300/60;
+}
+
+.glass-light {
+  @apply backdrop-blur-lg bg-white/90 border border-cyan-300;
+}
