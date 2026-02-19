@@ -11,7 +11,7 @@ export default function Footer() {
     >
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
-          {/* Company Info */}
+          {/* Company Info hhh */}
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img src="/logo.jpeg" alt="Transeffex" className="w-8 h-8 rounded" />
@@ -72,15 +72,15 @@ export default function Footer() {
             <div className="space-y-2 text-gray-400">
               <div className="flex items-center gap-2 hover:text-emerald-400 cursor-pointer">
                 <Mail className="w-5 h-5" />
-                <span>info@transeffex.com</span>
+                <span>transeffex@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 hover:text-emerald-400 cursor-pointer">
                 <Phone className="w-5 h-5" />
-                <span>+1 (555) 123-4567</span>
+                <span>+250 781 290 496</span>
               </div>
               <div className="flex items-start gap-2 hover:text-emerald-400 cursor-pointer">
                 <MapPin className="w-5 h-5 mt-1" />
-                <span>123 Tech Street, San Francisco, CA</span>
+                <span>Kigali city , Kinyinya Sector</span>
               </div>
             </div>
           </div>
